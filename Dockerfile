@@ -13,6 +13,7 @@ RUN apt-get -y update && \
 RUN pip install cython \
                 numpy \
                 matplotlib \
+                pandas \
                 scipy && \
     pip install qutip
 
