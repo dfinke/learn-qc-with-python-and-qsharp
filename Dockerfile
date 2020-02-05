@@ -14,6 +14,7 @@ RUN pip install cython \
                 numpy \
                 matplotlib \
                 pandas \
+                plotly \
                 scipy && \
     pip install qutip
 
